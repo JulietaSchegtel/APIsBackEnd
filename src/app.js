@@ -10,11 +10,11 @@ const moviesRoutes = require('./routes/moviesRoutes');
 const genresRoutes = require('./routes/genresRoutes');
 
 //Aquí llamo a la ruta de las api de movies
-const apiMoviesRouter = require('./routes/api/movies')
+const apiMoviesRouter = require('./routes/api/movies');
 //Aquí llamo a la ruta de las api de actors
-const apiGenresRouter = require('./routes/api/genres')
+const apiGenresRouter = require('./routes/api/genres');
 //Aquí llamo a la ruta de las api de actors
-const apiActorsRouter = require('./routes/api/actors')
+const apiActorsRouter = require('./routes/api/actors');
 
 // view engine setup
 app.set('views', path.resolve(__dirname, './views'));
