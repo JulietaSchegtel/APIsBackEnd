@@ -11,6 +11,7 @@ const genresRoutes = require('./routes/genresRoutes');
 
 //Aquí llamo a la ruta de las api de movies
 const apiMoviesRouter = require('./routes/api/movies');
+
 //Aquí llamo a la ruta de las api de actors
 const apiGenresRouter = require('./routes/api/genres');
 //Aquí llamo a la ruta de las api de actors
